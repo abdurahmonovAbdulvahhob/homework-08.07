@@ -1,11 +1,3 @@
-// 1. x va y koordinatalarni qabul qiluvchi Point nomli class yozing. 
-// Shuningdek ushbu class ikki nuqta orasidagi masofani hisoblovchi 
-// distance nomli static metodga ega bo'lsin.
-// Input:
-// let p1 = new Point(5, 5);
-// let p2 = new Point(9, 8);
-// console.log(Point.distance(p1, p2));
-// OUTPUT: 5
 
 // class Point {
 //   constructor(x, y) {
@@ -26,14 +18,6 @@
 // console.log(Point.distance(p1, p2));
 
 //------------------------------------------------------------------------
-
-// 2. name va departments (array) xususiyatlariga ega bo'lgan 
-// Universitet nomli class yarating. Ushbu classga yangi 
-// bo'lim(department) qo'shish, bo'limni olib tashlash va 
-// barcha bo'limlarni ko'rsatish metodlarini yozing. 
-// Universitet classidan object yarating, 5ta yangi bo'lim 
-// qo'shing va 2 ta bo'limni olib tashlang.
-//  Qolgan bo'limlar roвЂ™yxatini chiqaring.
 
 // class Universitet {
 //   constructor(name) {
@@ -77,20 +61,6 @@
 
 //--------------------------------------------------------
 
-// 3. id, name va price xususiyatlariga ega Product deb 
-// nomlangan class yozing. Har safar yangi product kiritilganda 
-// qiymati bittaga oshib boruvchi static productCount xususiyatini qo'shing. 
-// Mahsulotlarning umumiy narxini hisoblab beruvchi totalPrice metodini yarating.
-// Product classidan CareProduct deb nomlangan voris class yarating
-//  va unga kafolat muddati uchun warrantyPeriod xususiyatini qo'shing. 
-//  Voris class uchun kafolat muddatini hisobga oluvchi 
-//  totalPrice metodini qayta yozing. Bunda agar kafolat muddatiga 
-//  5 kun qolgan bo'lsa 10%, 
-//  4 kun qolgan bo'lsa 20%, 
-//  3 kun qolgan bo'lsa 30%, 
-//  2 kun qolgan bo'lsa 40% va 
-//  1 kun qolgan bo'lsa 50% narxda hisoblashni amalga oshiring.
-
 class Product {
   static productCount = 0;
   constructor(id, name, price) {
@@ -133,6 +103,6 @@ const careProduct1 = new CareProduct(1, "Shampoo", 100, new Date(2024, 6, 4));
 const careProduct2 = new CareProduct(2, "Soap", 200, new Date(2024, 6, 5));
 
 console.log(careProduct1.totalPrice());
-console.log(careProduct1.price);
+
 console.log(careProduct2.totalPrice());
-console.log(careProduct2.price);
+
