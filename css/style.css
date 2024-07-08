@@ -1,0 +1,42 @@
+#box1 {
+  background: rgb(3, 209, 3);
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: .5rem;
+  margin: 10px auto;
+
+}
+
+#main{
+  display: flex;
+
+
+}
+
+#box2 {
+  background: rgb(3, 209, 3);
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: .5rem;
+  margin: 10px auto;
+
+}
+#box3 {
+  background: rgb(3, 209, 3);
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: .5rem;
+  margin:10px auto;
+}
+
+#circle {
+  background: rgb(3, 209, 3);
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: .5rem;
+  margin: 10px auto;
+}
