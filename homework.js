@@ -119,7 +119,6 @@ class CareProduct extends Product {
   calculateDiscount() {
     const today = new Date();
     const daysRemaining = Math.abs(Math.floor((this.warrantyPeriod - today) / (1000 * 60 * 60 * 24)))-1;
-    console.log(daysRemaining);
     
     if (daysRemaining == 5) return 0.1;
     if (daysRemaining == 4) return 0.2;
@@ -134,4 +133,6 @@ const careProduct1 = new CareProduct(1, "Shampoo", 100, new Date(2024, 6, 4));
 const careProduct2 = new CareProduct(2, "Soap", 200, new Date(2024, 6, 5));
 
 console.log(careProduct1.totalPrice());
+console.log(careProduct1.price);
 console.log(careProduct2.totalPrice());
+console.log(careProduct2.price);
